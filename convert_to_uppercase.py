@@ -5,6 +5,5 @@
 # Ask the user to enter their name
 name = input("Enter your fullname: ")
 
-# Read the input string from the user
 # Convert all characters in the name to uppercase
-# Print the uppercase version of the name
+print(name.upper()) # Print the uppercase version of the name
