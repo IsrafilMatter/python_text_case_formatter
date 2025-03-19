@@ -3,6 +3,7 @@
 # Date: March 19, 2025
 
 # Ask the user to enter their name with leading spaces
-# Read the input string from user
+name = input("Enter your name with spaces at the beginning: ")
+
 # Remove any leading spaces from the input the 'lstrip()' function
 # Print the name with no spaces
