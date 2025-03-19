@@ -6,4 +6,4 @@
 name = input("Enter your name with spaces at the beginning: ")
 
 # Remove any leading spaces from the input the 'lstrip()' function
-# Print the name with no spaces
+print(name.lstrip()) # Print the name with no spaces
