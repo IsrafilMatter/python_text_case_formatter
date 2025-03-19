@@ -5,7 +5,6 @@
 # Ask the user to enter their name with incorrect casing
 name = input("Enter your fullname: ")
 
-# Read the input string from the user
-# Convert the text to title case
-# Remove spaces by splitting the words and joining them back
-# Print the PascalCase formatted name
+# Convert to title case and remove spaces
+pascal_case = "".join(name.title().split())
+print(pascal_case)
