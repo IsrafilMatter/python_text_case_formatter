@@ -5,7 +5,5 @@
 # Ask the user to enter a number between 0 and 1000
 number = int(input("Enter a number (0-1000): "))
 
-# Convert the input to an integer
-# Format the number to be displayed with exactly 6 digits
-# With leading zeros if necessary
-# Print the formatted number
+# Print the number formatted with exactly 6 digits, adding leading zeros if necessary
+print(f"{number:06d}") 
