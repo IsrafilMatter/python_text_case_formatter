@@ -6,4 +6,4 @@
 name = input("Enter your fullname: ")
 
 # Count the total number of characters including spaces
-# Print the character count
+print(len(name)) # Print the character count
