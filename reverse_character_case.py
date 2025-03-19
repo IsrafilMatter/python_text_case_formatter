@@ -8,4 +8,4 @@ name = input("Enter your fullname in incorrect casing: ")
 # Swap the case of each character
 # - Uppercase letters become lowercase
 # - Lowercase letters become uppercase
-# Print the modified name
+print(name.swapcase()) # Print the modified name
