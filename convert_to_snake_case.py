@@ -5,7 +5,6 @@
 # Ask the user to enter their name with incorrect casing
 name = input("Enter your fullname in incorrect casing: ")
 
-# Read the input string from the user
-# Convert all characters to lowercase
-# Split the name into words and joining the words with underscores
-# Print the snake_case formatted name.
+# Convert to lowercase and replace spaces with underscores
+snake_case = "_".join(name.lower().split())
+print(snake_case) # Print the snake_case formatted name.
