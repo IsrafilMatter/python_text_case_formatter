@@ -5,7 +5,5 @@
 # Ask the user to enter their name with incorrect casing
 name = input("Enter your fullname: ")
 
-# Read the input string from the user
-# Convert all characters to lowercase
-# Print the lowercase version of the name
-print(name.lower())
+# Convert all characters to lowercase and print the result
+print(name.lower()) # Converts input to lowercase
